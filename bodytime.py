@@ -7,7 +7,7 @@ if __name__ == '__main__':
     try:
         body_path = sys.argv[1]
     except:
-        print('ERROR\nbody file path is not specified\nPlease rerun:\n\t./convert_body_time.py /tmp/uac_analyze/bodyfile.txt')
+        print('ERROR\nbody file path is not specified\nPlease rerun:\n\tpython3 bodytime.py /tmp/uac_analyze/bodyfile.txt')
     
     # check path to bodyfile exist:
     try:
